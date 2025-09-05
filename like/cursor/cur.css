@@ -1,0 +1,28 @@
+
+
+body{background-color: black;
+    display: flex;
+     align-items: center;
+     justify-content: center;}
+#main h1{font-size: 100px;
+        height: 100%;
+        width: 100%;
+          font-weight: 100;
+          color: white;
+         margin-top: 40%;
+        display: flex;
+       align-content: center;
+       }
+    .cursor{ height: 40px;
+             width: 40px;
+            background-color:#fff;
+            border-radius: 50%;
+            border: solid black;
+            justify-content: center;
+            align-items: center ;
+            position: absolute;
+            mix-blend-mode: difference;
+            transform: all linear 0.2s;
+
+            
+        }

@@ -1,0 +1,40 @@
+*{padding: 0%;
+  margin: 0%;}
+  html body{height: 100%;
+             width: 100%;
+             background-color: hotpink;
+            align-items: center;
+       display: flex;
+        justify-content: center;
+        }
+ #body{height: 450px;
+       width: 250px;
+       background-color: whitesmoke;
+       margin-top: 200px;
+       border-radius: 10px;
+       border: 2px solid black;
+    }
+ #storiya{width: 100%;
+          height: 150px;
+        border-bottom: 2px solid grey;
+        white-space: nowrap;
+        background-color: black;
+        overflow-x: inherit;
+        overflow-y: hidden;}
+#storiya ::-webkit-scrollbar{
+    display: hidden;
+}
+       
+.i{height: 100px;
+   width: 100px;
+   margin-top: 28px;
+   border-radius: 50%;
+   border: 5px solid orangered ;
+   display: inline-block;
+   overflow: hidden;
+   
+    }
+    .i img{height: 100px;
+            width: 100px;
+        object-fit: cover;
+         }
